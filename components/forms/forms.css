@@ -1,0 +1,7 @@
+form, fieldset {
+    display: flex;
+    flex-direction: column;
+}
+.questionnaire-form fieldset  {
+    display: block;
+}

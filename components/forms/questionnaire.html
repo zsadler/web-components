@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Buttons - Web Components</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet" type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Advent+Pro:600,200' rel='stylesheet' type='text/css'>
+    <link href="https://zsadler.github.io/css/main.css" rel="stylesheet" type='text/css'>
+    <link href="https://zsadler.github.io/css/breadcrumb.css" rel="stylesheet" type='text/css'>
+    <link href="../buttons/button.css" rel="stylesheet" type='text/css'>
+    <link href="forms.css" rel="stylesheet" type='text/css'>
+
+</head>
+<body>
+
+<ul class="breadcrumb">
+    <li><a href="https://zsadler.github.io"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+    <li><a href="web-components/components/forms/index.html">Forms</a></li>
+    <li><a href="web-components/components/forms/questionnaire.html">Questionnaire Form</a></li>
+</ul>
+
+<article class="component">
+
+    <h3>Questionnaire Form</h3>
+
+    <form class="questionnaire-form">
+        <fieldset>
+            <label>Favorite Beer Type</label>
+            <input type="radio" name="ipa" value="IPA">IPA<br>
+            <input type="radio" name="stout" value="Stout">Stout<br>
+            <input type="radio" name="pale_ale" value="Pale Ale">Pale Ale<br>
+            <input type="radio" name="porter" value="Porter">Porter<br>
+            <input type="radio" name="other" value="">
+            <input type="text" name="other_beer" placeholder="Other...">
+        </fieldset>
+        <button type="submit" class="button button-md">Submit</button>
+    </form>
+
+</article>
+
+</body>
+</html>
