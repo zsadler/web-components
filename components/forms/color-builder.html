@@ -27,20 +27,23 @@
     <h2>Color Builder Form</h2>
 
     <form class="color-builder" action="">
-        <fieldset>
-            <label>Red</label>
-            <input id="rbg-r" type="range" min="0" max="255" value="0">
-            <label>Green</label>
-            <input id="rbg-g" type="range" min="0" max="255" value="0">
-            <label>Blue</label>
-            <input id="rbg-b" type="range" min="0" max="255" value="0">
-            <label>Alpha</label>
-            <input id="rgb-alpha" type="range" step="0.1" min="0" max="1" value="0">
-            <div class="color-generated">
-                <label>Color:</label>
-                <div class="color"></div>
-            </div>
-        </fieldset>
+        <div class="container">
+            <fieldset>
+                <legend> < Pick or Mix Your Color > </legend>
+                <label>Red</label>
+                <input id="rbg-r" type="range" min="0" max="255" value="0">
+                <label>Green</label>
+                <input id="rbg-g" type="range" min="0" max="255" value="0">
+                <label>Blue</label>
+                <input id="rbg-b" type="range" min="0" max="255" value="0">
+                <label>Alpha</label>
+                <input id="rgb-alpha" type="range" step="0.1" min="0" max="1" value="0">
+                <div class="color-generated">
+                    <label>Color:</label>
+                    <input type="color" name="colorpicker" class="color" value="#dddddd">
+                </div>
+            </fieldset>
+        </div>
     </form>
 </article>
 

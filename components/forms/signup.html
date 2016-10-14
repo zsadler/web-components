@@ -27,23 +27,27 @@
     <h2>Sign-up Form</h2>
 
     <form class="sign-up-form" action="">
-        <fieldset>
-            <label>First Name</label>
-            <input type="text" name="fname" placeholder="First Name">
+        <div class="container">
+            <fieldset>
+                <legend> < General Info > </legend>
+                <label>First Name</label>
+                <input type="text" name="fname" placeholder="First Name">
 
-            <label>Last Name</label>
-            <input type="text" name="lname" placeholder="Last Name">
+                <label>Last Name</label>
+                <input type="text" name="lname" placeholder="Last Name">
 
-            <label>Date of Birth</label>
-            <input type="date" name="bday">
-        </fieldset>
-        <fieldset>
-            <label>Email</label>
-            <input type="email" placeholder="Email" name="email" pattern="[^ @]*@[^ @]*" required>
+                <label>Date of Birth</label>
+                <input type="date" name="bday">
+            </fieldset>
+            <fieldset>
+                <legend> < User Login Info > </legend>
+                <label>Email</label>
+                <input type="email" placeholder="Email" name="email" pattern="[^ @]*@[^ @]*" required>
 
-            <label>Password</label>
-            <input type="password" placeholder="Password" required>
-        </fieldset>
+                <label>Password</label>
+                <input type="password" placeholder="Password" required>
+            </fieldset>
+        </div>
         <button type="submit" class="button button-md">Submit</button>
     </form>
 

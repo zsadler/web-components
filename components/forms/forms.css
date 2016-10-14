@@ -1,7 +1,62 @@
-form, fieldset {
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+form {
     display: flex;
     flex-direction: column;
 }
+fieldset {
+    margin-bottom: 2rem;
+    width: 50%;
+}
+fieldset:first-child {
+    margin-right: 1rem;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+input[type="range"],
+textarea {
+    width: 100%;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 0.6rem;
+}
+input[type="color"] {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 2rem;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 1rem;
+}
+
+.same-as-billing, .remember-me {
+    flex-direction: row;
+    align-items: baseline;
+}
 .questionnaire-form fieldset  {
     display: block;
+}
+.login-form fieldset {
+    margin-bottom: 1rem;
+}
+.remember-me {
+    padding-bottom: 1rem;
+    padding-top: 0;
+}
+.color-builder fieldset {
+    padding: 0 2rem;
+}
+fieldset.additional-requests{
+    width: 100%;
 }

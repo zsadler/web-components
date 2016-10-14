@@ -18,6 +18,8 @@
     letter-spacing: 1.1px;
     text-decoration: none;
     transition: all 0.25s ease;
+    max-width: 250px;
+    width: 100%;
 }
 
 .button:hover {
