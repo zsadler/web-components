@@ -1,0 +1,103 @@
+section {
+    display: flex;
+}
+.main {
+    padding: 0 1.75rem 0 0;
+    width: 75.555%;
+}
+aside {
+    font-size: 16px;
+    min-width: 280px;
+    width: 25.555%;
+    padding: 2rem;
+    border: 1px solid rgba(29, 30, 31, 0.24);
+    border-radius: 3px;
+}
+aside h2,
+aside h3 {
+    color: #f3a614;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgba(142, 193, 210, 0.32);
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+aside h3 {
+    color: #f3a614;
+    font-size: 1.1rem;
+    padding-bottom: 0.7rem;
+    margin-bottom: 0;
+ }
+aside img {
+    width:100%;
+    max-width: 150px;
+}
+.remove,
+.remove a {
+    color: #d45e04;
+    font-weight: bold;
+    text-decoration: none;
+}
+.remove a:hover {
+    text-decoration: underline;
+}
+
+.product-grid-row {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -.75rem;
+    margin-right: -.75rem;
+}
+.product-tile-wrap {
+    position: relative;
+    min-height: 1px;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+    margin-bottom: 3.92rem;
+}
+.product-tile {
+    position: relative;
+    margin: 0;
+    padding: 1rem;
+    border: 2px solid #efefef;
+}
+.product-tile a {
+    text-decoration: none;
+}
+.product-image-wrap {
+    margin-bottom: .75rem;
+    position: relative;
+    display: block;
+}
+.product-image-wrap:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 134.89583%;
+}
+.product-image-wrap .product-image-position-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.product-image {
+    width: 100%;
+    height: auto;
+}
+.product-tile img {
+    vertical-align: middle;
+}
+
+.product-name {
+    font-size: 1.1rem;
+    margin: 0;
+}
+.product-price {
+    padding-bottom: 1rem;
+}
