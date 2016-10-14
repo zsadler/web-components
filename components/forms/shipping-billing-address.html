@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Buttons - Web Components</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet" type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Advent+Pro:600,200' rel='stylesheet' type='text/css'>
+    <link href="https://zsadler.github.io/css/main.css" rel="stylesheet" type='text/css'>
+    <link href="https://zsadler.github.io/css/breadcrumb.css" rel="stylesheet" type='text/css'>
+    <link href="../buttons/button.css" rel="stylesheet" type='text/css'>
+    <link href="forms.css" rel="stylesheet" type='text/css'>
+
+</head>
+<body>
+
+<ul class="breadcrumb">
+    <li><a href="https://zsadler.github.io"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+    <li><a href="index.html">Forms</a></li>
+    <li><a href="shipping-billing-address.html">Shipping / Billing Form</a></li>
+</ul>
+
+<article class="component">
+
+    <h2>Shipping / Billing Form</h2>
+
+    <form class="shipping-billing-form" action="">
+        <fieldset class="shipping">
+            <legend>Shipping Address</legend>
+            <label>First Name</label>
+            <input type="text" name="fname" placeholder="First Name">
+
+            <label>Last Name</label>
+            <input type="text" name="lname" placeholder="Last Name">
+
+            <label>Street Address</label>
+            <input type="text" name="street" placeholder="Street Address">
+
+            <label>City</label>
+            <input type="text" name="city" placeholder="City">
+
+            <label>State</label>
+            <input type="text" name="state" placeholder="State">
+
+            <label>Zip</label>
+            <input type="text" name="zip" placeholder="Zip">
+
+            <label>Country</label>
+            <input type="text" name="country" placeholder="Country">
+
+        </fieldset>
+        <fieldset class="ship-as-billing">
+            <label>
+                <input type="radio" name="same_as_shipping" value="Same as Shipping"> Use shipping address for billing address?
+            </label>
+        </fieldset>
+        <fieldset class="billing">
+            <legend>Billing Address</legend>
+            <label>First Name</label>
+            <input type="text" name="fname" placeholder="First Name">
+
+            <label>Last Name</label>
+            <input type="text" name="lname" placeholder="Last Name">
+
+            <label>Street Address</label>
+            <input type="text" name="street" placeholder="Street Address">
+
+            <label>City</label>
+            <input type="text" name="city" placeholder="City">
+
+            <label>State</label>
+            <input type="text" name="state" placeholder="State">
+
+            <label>Zip</label>
+            <input type="text" name="zip" placeholder="Zip">
+
+            <label>Country</label>
+            <input type="text" name="country" placeholder="Country">
+
+        </fieldset>
+
+        <button type="submit" class="button button-md">Submit</button>
+    </form>
+
+</article>
+
+</body>
+</html>

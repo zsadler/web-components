@@ -24,17 +24,24 @@
 
 <article class="component">
 
-    <h3>Color Builder Form</h3>
+    <h2>Color Builder Form</h2>
 
-    <form class="login-form">
+    <form class="color-builder" action="">
         <fieldset>
-            <label>RGBA</label>
-            <input id="rgb" type="range" min="0" max="255" value="0">
+            <label>Red</label>
+            <input id="rbg-r" type="range" min="0" max="255" value="0">
+            <label>Green</label>
+            <input id="rbg-g" type="range" min="0" max="255" value="0">
+            <label>Blue</label>
+            <input id="rbg-b" type="range" min="0" max="255" value="0">
+            <label>Alpha</label>
             <input id="rgb-alpha" type="range" step="0.1" min="0" max="1" value="0">
-            <input id="color" name="color" type="color">
+            <div class="color-generated">
+                <label>Color:</label>
+                <div class="color"></div>
+            </div>
         </fieldset>
     </form>
-
 </article>
 
 </body>

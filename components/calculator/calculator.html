@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Calculator - Web Components</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet" type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Advent+Pro:600,200' rel='stylesheet' type='text/css'>
+    <link href="https://zsadler.github.io/css/main.css" rel="stylesheet" type='text/css'>
+    <link href="https://zsadler.github.io/css/breadcrumb.css" rel="stylesheet" type='text/css'>
+    <link href="calculator.css" rel="stylesheet" type='text/css'>
+
+</head>
+<body>
+
+<ul class="breadcrumb">
+    <li><a href="https://zsadler.github.io"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+    <li><a href="calculator.html">Calculator</a></li>
+</ul>
+
+<article class="component">
+
+    <h2>Calculator</h2>
+    <div class="calculator-container">
+        <ul class="calculator">
+            <li class="calc-screen">
+                <input type="text" name="screen" placeholder="0"/>
+            </li>
+            <li class="key calc-clear" data-key-val="clear">CLEAR</li>
+            <li class="key calc-del" data-key-val="del">DEL</li>
+            <li class="key" data-key-val="7">7</li>
+            <li class="key" data-key-val="8">8</li>
+            <li class="key" data-key-val="9">9</li>
+            <li class="key" data-key-val="add">&#43;</li>
+            <li class="key" data-key-val="4">4</li>
+            <li class="key" data-key-val="5">5</li>
+            <li class="key" data-key-val="6">6</li>
+            <li class="key" data-key-val="minus">&#8722;</li>
+            <li class="key" data-key-val="3">3</li>
+            <li class="key" data-key-val="2">2</li>
+            <li class="key" data-key-val="1">1</li>
+            <li class="key" data-key-val="divide">&#247;</li>
+            <li class="key" data-key-val="decimal">.</li>
+            <li class="key" data-key-val="0">0</li>
+            <li class="key" data-key-val="equal">&#61;</li>
+            <li class="key" data-key-val="multiply">&#215;</li>
+        </ul>
+    </div>
+
+</article>
+
+</body>
+</html>
