@@ -30,11 +30,13 @@
         <div class="container">
             <fieldset>
                 <legend> < Please Login > </legend>
-                <label>Email</label>
-                <input type="email" placeholder="Email">
+                <label><i class="fa fa-envelope-o fa-fw"></i> Email</label>
+                <input type="email" placeholder="Email" name="email" pattern="[^ @]*@[^ @]*" required>
 
-                <label>Password</label>
-                <input type="password" placeholder="Password">
+                <label><i class="fa fa-key fa-fw"></i> Password</label>
+                <input type="password" placeholder="Password" required>
+
+
             </fieldset>
         </div>
         <label class="remember-me" for="remember">

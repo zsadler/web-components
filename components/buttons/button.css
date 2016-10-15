@@ -7,25 +7,26 @@
 .button,
 .button-md {
     display: inline-block;
-    border: 1px solid #777;
     font-size: 1rem;
     padding: .6rem 1.2rem;
     text-align: center;
-    text-transform: uppercase;
-    background: rgba(45, 40, 26, 0.94);
+    background: #2C2D34;
     color: #fff;
     font-weight: 600;
     letter-spacing: 1.1px;
     text-decoration: none;
-    transition: all 0.25s ease;
+    border: 1px solid #2C2D34;
+    border-radius: 2px;
     max-width: 250px;
     width: 100%;
+    transition: background 0.2s;
 }
 
 .button:hover {
     color: rgba(45,40,26,0.94);
     background: #fff;
     cursor: pointer;
+    border: 1px solid #2C2D34;
 }
 .button:active {
     background: rgba(45, 40, 26, 0.94);

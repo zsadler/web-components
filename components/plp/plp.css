@@ -5,6 +5,11 @@ section {
     padding: 0 1.75rem 0 0;
     width: 75.555%;
 }
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 aside {
     font-size: 16px;
     min-width: 280px;
@@ -12,6 +17,7 @@ aside {
     padding: 2rem;
     border: 1px solid rgba(29, 30, 31, 0.24);
     border-radius: 3px;
+    background-color: rgba(252, 255, 255, 0.85);
 }
 aside h2,
 aside h3 {
@@ -44,15 +50,13 @@ aside img {
 .product-grid-row {
     margin: 0;
     padding: 0;
-    list-style: none;
+
     display: flex;
     flex-wrap: wrap;
     margin-left: -.75rem;
     margin-right: -.75rem;
 }
 .product-tile-wrap {
-    position: relative;
-    min-height: 1px;
     padding-right: .75rem;
     padding-left: .75rem;
     flex-basis: 33.33333%;
@@ -64,6 +68,7 @@ aside img {
     margin: 0;
     padding: 1rem;
     border: 2px solid #efefef;
+    background-color: #fff;
 }
 .product-tile a {
     text-decoration: none;
@@ -100,4 +105,64 @@ aside img {
 }
 .product-price {
     padding-bottom: 1rem;
+    text-align: right;
+    color: #8c420a;
+}
+.sale.standard-price {
+    text-decoration: line-through;
+}
+.sale-price {
+    color: #d45e04;
+}
+.product-tile .button {
+    max-width: 100%;
+}
+.product-tile button i.fa-shopping-cart {
+    padding-right: 0.5rem;
+}
+.cart-item {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-bottom: 1px solid #dedede;
+}
+.cart-item:first-child {
+    padding-top: 0;
+}
+.cart-item .product-name,
+.cart-item .product-price,
+.remove, .qty {
+    font-size: 0.8rem;
+    padding-bottom: 0;
+}
+.cart-item .remove {
+    text-align: right;
+}
+.checkout-total {
+    padding: 1rem 0;
+}
+.checkout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.process-checkout {
+    margin-bottom: 0.8rem;
+}
+.continue-shopping {
+    padding-top: 0.4rem;
+}
+.cart-items h2 .cart-label {
+    font-size: 2.6rem;
+}
+.cart-items h2 {
+    position: relative;
+}
+.cart-total {
+    position: absolute;
+    color: #fff;
+    top: 13px;
+    left: 22px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 100;
 }
