@@ -8,6 +8,7 @@ form {
     flex-direction: column;
 }
 fieldset {
+    background-color: #fff;
     margin-bottom: 2rem;
     width: 50%;
     border-radius: 0.2rem;
