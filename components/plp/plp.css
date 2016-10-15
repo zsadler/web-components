@@ -77,6 +77,7 @@ aside img {
 }
 .product-tile a {
     text-decoration: none;
+    color: #444;
 }
 .product-image-wrap {
     margin-bottom: .75rem;
