@@ -18,6 +18,9 @@ fieldset {
 fieldset:first-child {
     margin-right: 1rem;
 }
+fieldset:last-child {
+    margin-right: 0;
+}
 input[type="text"],
 input[type="email"],
 input[type="password"],
