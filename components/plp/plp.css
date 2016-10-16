@@ -147,6 +147,25 @@ aside h2 {
 .continue-shopping {
     padding-top: 0.4rem;
 }
+.continue-shopping .fa-arrow-left:before {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.continue-shopping:hover {
+    cursor: pointer;
+}
+.continue-shopping:hover .fa-arrow-left:before,
+.continue-shopping:focus .fa-arrow-left:before,
+.continue-shopping:active .fa-arrow-left:before {
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+}
 .cart-items h2 .cart-label {
     font-size: 2.6rem;
 }
