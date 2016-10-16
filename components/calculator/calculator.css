@@ -38,7 +38,8 @@
 }
 .calc-screen input {
     background-color: #fff;
-    border: 1px solid #aaaaaa;
+    border: 1px solid #636262;
+    box-shadow: inset 1px 1px 0px 0px rgba(50, 50, 50, 0.75);
     border-radius: 4px;
     height: 44px;
     width: 235px;
