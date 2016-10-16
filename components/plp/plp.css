@@ -59,6 +59,9 @@ aside h2 {
     border: 2px solid #efefef;
     background-color: #fff;
 }
+.product-tile:hover img {
+    opacity: .75;
+}
 .product-tile .product-description p {
     margin: 0;
     font-size: .8rem;
