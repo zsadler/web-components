@@ -27,12 +27,11 @@
     height: 50px;
     border: 1px solid #545050;
     background-color: rgba(2, 2, 2, 0.27);
-    box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 1px 1px 0px 1px rgba(50, 50, 50, 0.75);
 }
 .key:hover {
     cursor: pointer;
-    background-color: #fff;
-    color: #322c1f;
+    box-shadow: 1px 1px rgba(50, 50, 50, 0.75);
 }
 .calc-screen {
     list-style: none;
