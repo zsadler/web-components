@@ -21,6 +21,9 @@ fieldset:first-child {
 fieldset:last-child {
     margin-right: 0;
 }
+input[type="search"] {
+    margin: 1rem 0;
+}
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -51,6 +54,9 @@ label {
     flex-direction: row;
     align-items: flex-start;
     padding-top: 1rem;
+}
+sup {
+    top: 0.5rem;
 }
 .error-msg,
 .required {
