@@ -40,17 +40,18 @@
             <fieldset>
                 <legend> < Please Login > </legend>
                 <label><i class="fa fa-envelope-o fa-fw"></i> Email</label>
+                <div class="error-msg email-error"></div>
                 <input type="email" placeholder="Email" name="email" pattern="[^ @]*@[^ @]*" required>
 
                 <label><i class="fa fa-key fa-fw"></i> Password</label>
-                <input type="password" placeholder="Password" required>
+                <div class="error-msg password-error"></div>
+                <input type="password" placeholder="Password" name="password" required>
 
-
+                <label class="remember-me" for="remember">
+                    <input id="remember" type="checkbox" name="remeberMe"> Remember me
+                </label>
             </fieldset>
         </div>
-        <label class="remember-me" for="remember">
-            <input id="remember" type="checkbox"> Remember me
-        </label>
 
         <button type="submit" class="button button-md">Sign in</button>
 
@@ -58,6 +59,6 @@
 
 </article>
 <script type="text/javascript" src="js/validator.js"></script>
-<script type="text/javascript" src="js/forms.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
 </body>
 </html>
