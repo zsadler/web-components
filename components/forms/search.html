@@ -5,11 +5,11 @@
 
     <title>Search | Forms - Web Components</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet" type='text/css'>
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet" type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Advent+Pro:600,200' rel='stylesheet' type='text/css'>
     <link href="https://zsadler.github.io/css/main.css" rel="stylesheet" type='text/css'>
-    <link href="https://zsadler.github.io/css/breadcrumb.css" rel="stylesheet" type='text/css'>
+    <link href="https://zsadler.github.io/css/breadcrumb.css" rel="stylesheet" type='text/css'> -->
     <link href="../buttons/button.css" rel="stylesheet" type='text/css'>
     <link href="forms.css" rel="stylesheet" type='text/css'>
 
@@ -35,11 +35,13 @@
 
     <h2>Search Form</h2>
 
-    <form class="search-form" action="">
+    <form id="search" class="search-form" action="">
         <div class="container">
             <fieldset>
                 <legend> < Search Vintage > </legend>
+                <div class="error-msg input-error"></div>
                 <input type="search" name="search" placeholder="Search vintage things...">
+                <div class="error-msg select-error"></div>
                 <select>
                     <option value="books">Books</option>
                     <option value="vhs">VHS</option>
@@ -51,10 +53,11 @@
                 </select>
             </fieldset>
         </div>
-        <button type="button" class="button button-md">Search</button>
+        <button type="submit" class="button button-md">Search</button>
     </form>
 
 </article>
-
+<script type="text/javascript" src="js/validator.js"></script>
+<script type="text/javascript" src="js/searchform.js"></script>
 </body>
 </html>

@@ -52,7 +52,7 @@ label {
     align-items: flex-start;
     padding-top: 1rem;
 }
-
+.error-msg {color:red;}
 .same-as-billing, .remember-me {
     flex-direction: row;
     align-items: baseline;
