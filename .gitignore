@@ -1,4 +1,4 @@
 *.log
 *.idea
 *.DS_Store
-*.sublime-*
+components/forms/js

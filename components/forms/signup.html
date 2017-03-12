@@ -39,29 +39,34 @@
         <div class="container">
             <fieldset>
                 <legend> < General Info > </legend>
-                <label>First Name</label>
-                <input type="text" name="fname" placeholder="First Name">
+                <label>First Name<sup class="required">*</sup></label>
+                <div class="error-msg fname-error"></div>
+                <input type="text" name="fname" placeholder="First Name" required>
 
-                <label>Last Name</label>
-                <input type="text" name="lname" placeholder="Last Name">
+                <label>Last Name<sup class="required">*</sup></label>
+                <div class="error-msg lname-error"></div>
+                <input type="text" name="lname" placeholder="Last Name" required>
 
                 <label>Date of Birth</label>
-                <input type="date" name="bday">
+                <div class="error-msg bday-error"></div>
+                <input type="date" name="bday" required>
             </fieldset>
             <fieldset>
                 <legend> < User Login Info > </legend>
-                <label><i class="fa fa-envelope-o fa-fw"></i> Email</label>
+                <label><i class="fa fa-envelope-o fa-fw"></i> Email<sup class="required">*</sup></label>
+                <div class="error-msg email-error"></div>
                 <input type="email" placeholder="Email" name="email" pattern="[^ @]*@[^ @]*" required>
 
-                <label><i class="fa fa-key fa-fw"></i> Password</label>
-                <input type="password" placeholder="Password" required>
+                <label><i class="fa fa-key fa-fw"></i> Password<sup class="required">*</sup></label>
+                <div class="error-msg password-error"></div>
+                <input type="password" placeholder="Password" name="password" required>
             </fieldset>
         </div>
         <button type="submit" class="button button-md">Submit</button>
     </form>
 
 </article>
-    <script type="text/javascript" src="js/validator.js"></script>
-    <script type="text/javascript" src="js/signup.js"></script>
+    <script type="text/javascript" src="https://zsadler.github.io/js/validator.js"></script>
+    <script type="text/javascript" src="https://zsadler.github.io/js/signup.js"></script>
 </body>
 </html>
