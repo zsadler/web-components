@@ -21,6 +21,7 @@ fieldset:first-child {
 fieldset:last-child {
     margin-right: 0;
 }
+
 input[type="search"] {
     margin: 1rem 0;
 }
@@ -68,6 +69,7 @@ sup {
 }
 .questionnaire-form fieldset  {
     display: block;
+    width: 100%;
 }
 .login-form fieldset {
     margin-bottom: 1rem;

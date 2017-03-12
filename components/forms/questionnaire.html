@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet" type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Advent+Pro:600,200' rel='stylesheet' type='text/css'>
+    
     <link href="https://zsadler.github.io/css/main.css" rel="stylesheet" type='text/css'>
     <link href="https://zsadler.github.io/css/breadcrumb.css" rel="stylesheet" type='text/css'>
     <link href="../buttons/button.css" rel="stylesheet" type='text/css'>
@@ -38,19 +38,21 @@
     <form id="questionnaire" class="questionnaire-form" action="">
         <fieldset>
             <legend> < Favorite Beer Type > </legend>
-            <label>What Type of Beer do you love?</label>
-            <input type="radio" name="ipa" value="IPA">IPA<br>
-            <input type="radio" name="stout" value="Stout">Stout<br>
-            <input type="radio" name="pale_ale" value="Pale Ale">Pale Ale<br>
-            <input type="radio" name="porter" value="Porter">Porter<br>
-            <input type="radio" name="other" value="">Other
-            <input type="text" name="other_beer" placeholder="Other...">
+            <label>What type of beer do you love?</label>
+            <div class="error-msg radio-error"></div>
+            <input type="radio" name="beer" value="IPA">IPA<br>
+            <input type="radio" name="beer" value="Stout">Stout<br>
+            <input type="radio" name="beer" value="Pale Ale">Pale Ale<br>
+            <input type="radio" name="beer" value="Porter">Porter<br>
+            <input type="radio" name="beer" value="Other">Other
+            <div class="error-msg other-error "></div>
+            <input type="text" name="other_beer" placeholder="What other type of beer?">
         </fieldset>
         <button type="submit" class="button button-md">Submit</button>
     </form>
 
 </article>
-<script type="text/javascript" src="js/validator.js"></script>
-<script type="text/javascript" src="js/forms.js"></script>
+<script type="text/javascript" src="https://zsadler.github.io/js/validator.js"></script>
+<script type="text/javascript" src="https://zsadler.github.io/js/questionnaire.js"></script>
 </body>
 </html>
