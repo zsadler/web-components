@@ -103,10 +103,11 @@ fieldset.additional-requests{
     justify-content: space-between;
 }
 .rgb-result span {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
     max-height: 20px;
     vertical-align: middle;
     padding: 0 0.3rem;
+    border-radius: 3px;
 }
 .color-picker {
     border-top: 1px solid #d4d4d4;
