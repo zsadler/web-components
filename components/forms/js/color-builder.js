@@ -10,6 +10,7 @@
         gValueEl = document.querySelector('.rbg-g span'),
         bValueEl = document.querySelector('.rbg-b span'),
         aValueEl = document.querySelector('.rgb-alpha span'),
+        rgbaValueEl = document.querySelector('.rgb-result span'),
         rRange = rRangeEl.value,
         gRange = gRangeEl.value,
         bRange = bRangeEl.value,
@@ -24,6 +25,8 @@
     gValueEl.innerHTML = gRange;
     bValueEl.innerHTML = bRange;
     aValueEl.innerHTML = aRange;
+
+    rgbaValueEl.innerHTML = 'rgba('+ rRange +', '+ gRange +', '+ bRange +', '+ aRange;
 
     // colorBuilder form
     if(colorBuilder !== null) {
@@ -41,6 +44,7 @@
             aValueEl.innerHTML = aRange;    
 
             // set value on range change
+            rgbaValueEl.innerHTML = 'rgba('+ rRange +', '+ gRange +', '+ bRange +', '+ aRange +')';
             rgbaGenerated = 'background-Color:rgba('+ rRange +','+ gRange +','+ bRange +','+ aRange +')';
             rgbaGeneratedEl.setAttribute("style", rgbaGenerated);
         });
