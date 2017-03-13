@@ -38,24 +38,28 @@
     <form id="colorBuilder" class="color-builder" action="">
         <div class="container">
             <fieldset>
-                <legend> < Pick or Mix Your Color > </legend>
-                <label>Red</label>
+                <legend> < Mix or Pick Your Color > </legend>
+                <label class="rbg-r">Red <span></span></label>
                 <input id="rbg-r" type="range" min="0" max="255" value="0">
-                <label>Green</label>
+                <label class="rbg-g">Green <span></span></label>
                 <input id="rbg-g" type="range" min="0" max="255" value="0">
-                <label>Blue</label>
+                <label class="rbg-b">Blue <span></span></label>
                 <input id="rbg-b" type="range" min="0" max="255" value="0">
-                <label>Alpha</label>
-                <input id="rgb-alpha" type="range" step="0.1" min="0" max="1" value="0">
-                <div class="color-generated">
-                    <label>Color:</label>
-                    <input type="color" name="colorpicker" class="color" value="#dddddd">
+                <label class="rgb-alpha">Alpha <span></span></label>
+                <input id="rgb-alpha" type="range" step="0.1" min="0" max="1" value="1">
+                
+                <label>Color Mixer Result:</label>
+                <div id="color-generated"></div>
+
+                <div class="color-picker">
+                    <label>Color Picker:</label>
+                    <input type="color" name="colorpicker" class="color" value="#000">
                 </div>
             </fieldset>
         </div>
     </form>
 </article>
 <script type="text/javascript" src="js/validator.js"></script>
-<script type="text/javascript" src="js/forms.js"></script>
+<script type="text/javascript" src="js/color-builder.js"></script>
 </body>
 </html>

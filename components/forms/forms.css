@@ -74,14 +74,35 @@ sup {
 .login-form fieldset {
     margin-bottom: 1rem;
 }
-.remember-me {
-    padding-bottom: 1rem;
-    padding-top: 0;
-}
-.color-builder fieldset {
-    padding: 0 2rem;
-}
+
 fieldset.additional-requests{
     width: 100%;
     padding-top: 1rem;
 }
+
+.remember-me {
+    padding-bottom: 1rem;
+    padding-top: 0;
+}
+
+#color-generated {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #d4d4d4;
+}
+.color-builder fieldset {
+    padding: 0 2rem;
+}
+.color-builder label {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.color-picker {
+    border-top: 1px solid #d4d4d4;
+    margin: 3rem 0 0;
+    padding: 1rem 0 0;
+}
+.rbg-r {color: #ff0000;}
+.rbg-g {color: #00ff00;}
+.rbg-b {color: #0000ff;}
