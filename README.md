@@ -11,5 +11,5 @@ https://help.github.com/en#github-pages-basics
 #### User, Organization, and Project Pages:
 https://help.github.com/en/articles/user-organization-and-project-pages
 
-#### Publishing Pages:
+#### Publishing Pages:  
 https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
